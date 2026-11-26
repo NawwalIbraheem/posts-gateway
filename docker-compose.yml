@@ -1,0 +1,10 @@
+﻿# Start with: docker compose up -d --build
+services:
+  api:
+    build: .
+    image: posts-gateway:latest
+    container_name: posts-gateway
+    env_file: .env
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
