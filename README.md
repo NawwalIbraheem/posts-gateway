@@ -24,7 +24,7 @@ Python 3.12 · Django 5.2 · Django REST Framework · requests · drf-spectacula
 Requirements: Docker with the Compose plugin.
 
 ```bash
-git clone https://github.com/Nawwallbraheem/posts-gateway.git
+git clone https://github.com/NawwalIbraheem/posts-gateway.git
 cd posts-gateway
 cp .env.example .env
 docker compose up -d --build
